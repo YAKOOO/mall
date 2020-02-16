@@ -4,7 +4,7 @@ import home from 'views/home/home'
 import cate from 'views/category/category'
 import cart from 'views/cart/cart'
 import profile from 'views/profile/profile'
-import search from 'views/home/search'
+import detail from "./views/detail/detail";
 Vue.use(Router);
 const routes=[
 	{
@@ -31,6 +31,14 @@ const routes=[
 		name:'Profile',
 		component:profile
 	},
+	{
+		path:'/detail/:iid',
+		name:'Detail',
+		component:detail,
+		meta:{
+			isShow:true
+		}
+	}
 ];
 export default new Router({
 	routes,

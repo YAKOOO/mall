@@ -1,5 +1,5 @@
 <template>
-  <tab-bar class="bar">
+  <tab-bar class="bar">           <!--flex布局 插入每个item组件-->
     <bar-item path="/home" >
       <img src="~assets/img/tabbar/home0.svg" alt="" slot="item-image">
       <img src="~assets/img/tabbar/home1.svg" alt="" slot="item-image-active">
@@ -43,5 +43,6 @@
   position: sticky;
   z-index: 9;
   bottom: 0px;
+  padding-bottom: 1%;
 }
 </style>
