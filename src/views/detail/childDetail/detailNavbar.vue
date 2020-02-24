@@ -32,7 +32,9 @@
     methods:{
 			changeIndex(index){
 				this.currentIndex=index
-      },
+        this.$emit('detail-click',index)
+
+			},
       back(){
 				this.$router.back()
       }
