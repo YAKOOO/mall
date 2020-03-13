@@ -1,4 +1,4 @@
-# super
+# 基于Vue开发的移动端购物网站
 
 ## Project setup
 ```
